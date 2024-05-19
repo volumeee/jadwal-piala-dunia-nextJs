@@ -23,7 +23,7 @@ const Team = ({ team, isToday }: TeamProps) => {
         alt={team?.name}
         src={`https://api.fifa.com/api/v3/picture/flags-sq-5/${team?.country}`}
         className={clsx(
-          "w-[120px] h-[90px] border-[4px] border-black shadow-[5px_5px_0_0_#000000] rounded-[14px]",
+          "w-[90px] h-[60px] border-[4px] border-black shadow-[5px_5px_0_0_#000000] rounded-[14px]",
           isToday &&
             "w-[180px] h-[120px] border-[5px] border-black shadow-[10px_10px_0_0_#000000] rounded-[14px]"
         )}
